@@ -1,0 +1,179 @@
+#header {
+    background-color: #19212b;
+}
+
+#button {
+    background-color: transparent;
+}
+
+#button::hover {
+    border: 1px solid rgba(94, 183, 247, 0.5);
+}
+
+#button::pressed {
+    background-color: #25303e;
+}
+
+#self {
+    background-color: #0e1621;
+}
+
+#obj_table {
+    background-color: rgb(23, 33, 43);
+}
+
+#customBox {
+    background-color:rgb(34, 42, 51);
+    border: 1px solid black;
+    color: rgb(220, 220, 220);
+}
+
+#settings_button {
+    background-color:rgb(34, 42, 51);
+    border: 1px solid black;
+    color: rgb(220, 220, 220);
+    border-radius: 6px;
+}
+
+#settings_button::hover {
+    background-color:rgb(22, 28, 36);
+}
+
+#settings_button::pressed {
+    background-color:rgb(19, 25, 33);
+}
+
+#timer {
+    font-size: 40px;
+    color: rgb(220, 220, 220);
+}
+
+#type_frame {
+    background-color: rgb(31, 41, 54);
+    border: 1px solid rgb(220, 220, 220);
+}
+
+#type_input {
+    background-color: rgb(49, 65, 82);
+    border: 1px solid black;
+    color: rgb(220, 220, 220)
+}
+
+QComboBox {
+    background-color: rgb(49, 65, 82);
+    border: 1px solid black;
+    color: rgb(220, 220, 220);
+}
+
+QComboBox QAbstractItemView {
+            background: white;
+            color: rgb(220, 220, 220);
+            selection-background-color: rgba(47, 49, 54, 0.4);
+            selection-color: white;
+            background-color: rgb(49, 65, 82);
+}
+
+#red_line {
+    background-color: #19212b;
+}
+
+#type_button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(220, 220, 220);
+}
+
+#type_button::hover {
+    background-color: rgb(37, 43, 51);
+    color: white;
+}
+
+#type_button::pressed {
+    background-color: rgb(25, 30, 36);
+    color: rgb(184, 184, 184)
+}
+
+QComboBox QScrollBar:vertical {
+    border: none;
+    width: 10px;
+    margin: 2px 0 2px 0;
+    background-color: rgb(37, 39, 43)
+}
+
+QComboBox QScrollBar::handle:vertical {
+    background-color: rgb(36, 40, 48);
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QComboBox QScrollBar::handle:vertical:hover {
+    background-color: rgb(44, 48, 56);
+}
+
+QComboBox QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background-color: none;
+}
+
+QComboBox QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background-color: none;
+}
+
+#radio_type {
+    color: rgb(220, 220, 220);
+}
+
+#check_type {
+    color: rgb(220, 220, 220);
+}
+
+#text_calendar {
+    color: black;
+}
+
+#label_traker_created {
+    color: rgb(220, 220, 220);
+}
+
+#label_add {
+    color: rgb(220, 220, 220);
+    font-size: 25px;
+}
+
+#path {
+    color: rgba(196, 196, 196, 0.4);
+}
+
+#label_type {
+    color: rgb(220, 220, 220);
+}
+
+/* \/ Теги и описание \/ */
+
+#close_button {
+        background-color: #7a1c15;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px;
+}
+
+#message_label {
+    color: rgb(220, 220, 220);
+}
+
+QMessageBox {
+    background-color: #0e1621;
+}
+
+QMessageBox QLabel {
+    color: rgb(220, 220, 220);
+}
+
+QMessageBox QPushButton {
+    background-color: #171616;
+    padding: 5px;
+    border: 1px solid white;
+    color: rgb(220, 220, 220);
+    border-radius: 6px;
+}
